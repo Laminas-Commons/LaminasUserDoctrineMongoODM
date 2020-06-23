@@ -71,19 +71,16 @@ class UserMongoDB implements \LmcUser\Mapper\UserInterface
         $dm->flush();
     }
     
-    public function insert($document, $tableName = null, HydratorInterface $hydrator = null)
+    public function insert(\LaminasUser\Entity\UserInterface $user)
     {
-        $this->dm->persist($document);
+        $this->dm->persist($user);
         $this->dm->flush();
     }
 
-    public function update($document, $where = null, $tableName = null, HydratorInterface $hydrator = null)
+    public function update(\LaminasUser\Entity\UserInterface $user)
     {
-        if (!$where) {
-            $where = 'id = ' . $document->getId();
-        }
 
-        $this->dm->persist($document);
+        $this->dm->persist($user);
         $this->dm->flush();
     }
 }
