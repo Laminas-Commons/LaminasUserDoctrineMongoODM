@@ -1,5 +1,5 @@
 {
-    "name": "laminas-commons/lmc-user-doctrine-mongo-odm",
+    "name": "laminas-commons/lmc-user-doctrine-odm",
     "description": "Doctrine2 Mongo storage adapter for LmcUser.",
     "type": "library",
     "license": "BSD-3-Clause",
