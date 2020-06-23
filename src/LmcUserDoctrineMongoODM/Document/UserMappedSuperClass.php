@@ -2,7 +2,7 @@
 
 namespace LmcUserDoctrineMongoODM\Document;
 
-use LaminasUser\Entity\User;
+use LmcUser\Entity\User;
 
 abstract class UserMappedSuperClass extends User
 {}

@@ -71,13 +71,13 @@ class UserMongoDB implements \LmcUser\Mapper\UserInterface
         $dm->flush();
     }
     
-    public function insert(\LaminasUser\Entity\UserInterface $user)
+    public function insert(\LmcUser\Entity\UserInterface $user)
     {
         $this->dm->persist($user);
         $this->dm->flush();
     }
 
-    public function update(\LaminasUser\Entity\UserInterface $user)
+    public function update(\LmcUser\Entity\UserInterface $user)
     {
 
         $this->dm->persist($user);
