@@ -33,5 +33,6 @@
         "classmap": [
             "./"
         ]
-    }
+    },
+    "abandoned": "lm-commons/lmc-user-doctrine-odm"
 }

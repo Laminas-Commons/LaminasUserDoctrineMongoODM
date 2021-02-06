@@ -1,3 +1,8 @@
+>
+> **IMPORTANT!**
+> 
+> This library is abandoned.  Please use [LM-Commons/LmcUser](https:www.github.com/lm-commons/lmcuserdoctrinemongoodm)
+
 LmcUserDoctrineMongoODM
 =======================
 
